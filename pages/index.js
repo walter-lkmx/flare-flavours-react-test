@@ -9,12 +9,12 @@ export default function FirstPage() {
   return <SimpleLayout
     header = {
       <Block>
-        <h1>Flare header.</h1>
+        <h1>Flare header</h1>
       </Block>
     }
     main = {
       <Page>
-        <Column number={1}>
+        <Column>
           <Block>
             <h1>Hello World</h1>
             <p>This is a perfectly aligned page</p>
